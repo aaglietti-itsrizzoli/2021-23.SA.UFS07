@@ -11,6 +11,12 @@ Ricordarsi sempre di avere il file .nvmrc ed aver usato `nvm install` e poi `nvm
 
 Inoltre assicurarsi da source control che la nostra working directory non abbia nessuna modifica pending e quindi che possiamo iniziare a lavorare.
 
+### init design-system folder
+
+I componenti sono uno scope a se' stante rispetto all'applicazione quindi dobbiamo inzializzare un nuovo package.json all'interno di questa directory.
+
+`npm init`
+
 ## creare account su bit.cloud
 
 Aprire https://bit.cloud/ e creare account!
@@ -31,6 +37,8 @@ https://bit.cloud/alessandro-aglietti/2021-23_sa_ufs07
 
 `npx @teambit/bvm install`
 
-poi per verificare installazione
+se il comando `bit --version` ritorna errore come se `bit` non fosse installato sara' sufficiente
 
-`npx @teambit/bvm --version`
+`echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc`
+
+poi chiudere e riaprire il terminale e ritentare `bit --version`.
