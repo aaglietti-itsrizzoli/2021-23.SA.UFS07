@@ -1,0 +1,38 @@
+# bit.cloud / bit.dev
+
+0. NVM check and clean working directory
+1. creare account su bit.cloud
+2. installare bit CLI
+3. 
+
+## NVM check and clean working directory
+
+Ricordarsi sempre di assicurarsi tramite NVM che stiamo usando la versione di Node.js definita nel .nvmrc di questo progetto.
+
+I comandi sono sopra.
+
+Inoltre assicurarsi da source control che la nostra working directory non abbia nessuna modifica pending e quindi che possiamo iniziare a lavorare.
+
+## creare account su bit.cloud
+
+Aprire https://bit.cloud/ e creare account!
+
+Quando vi chiede come configurare fare come segue.
+
+![bit-cloud-0-new-account](../img/readme/bit-cloud-0-new-account.png)
+
+Alla fine vedremo uno spazio vuoto.
+
+![bit-cloud-1-account-created-landing](../img/readme/bit-cloud-1-account-created-landing.png)
+
+Copiamo l'URL del nostro spazio vuoto (e pubblico) e scriviamolo qua sotto!
+
+https://bit.cloud/alessandro-aglietti/2021-23_sa_ufs07
+
+## installare bvm aka the bit.cloud CLI
+
+`npx @teambit/bvm install`
+
+poi per verificare installazione
+
+`npx @teambit/bvm --version`
