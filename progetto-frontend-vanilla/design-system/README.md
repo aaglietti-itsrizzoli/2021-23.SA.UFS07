@@ -7,9 +7,7 @@
 
 ## NVM check and clean working directory
 
-Ricordarsi sempre di assicurarsi tramite NVM che stiamo usando la versione di Node.js definita nel .nvmrc di questo progetto.
-
-I comandi sono sopra.
+Ricordarsi sempre di avere il file .nvmrc ed aver usato `nvm install` e poi `nvm use` prima di iniziare a lavorare.
 
 Inoltre assicurarsi da source control che la nostra working directory non abbia nessuna modifica pending e quindi che possiamo iniziare a lavorare.
 
