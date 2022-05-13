@@ -1,0 +1,9 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "0. NVM check and clean working directory 1. creare account su bit.cloud 2. installare bit CLI 3.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
